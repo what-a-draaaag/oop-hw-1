@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Phase 1",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=$(pwd); dotnet test Class1/Task1 --filter \"TestCanonicity\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Phase 2",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=$(pwd); dotnet test Class1/Task1 --filter \"TestSecondaryConstructors\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Phase 3",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=$(pwd); dotnet test Class1/Task1 --filter \"TestOperators\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
